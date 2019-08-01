@@ -1,2 +1,2 @@
 # upTask
-App with node MVC  
+App with nodejs and mysql + sequelize  MVC  
