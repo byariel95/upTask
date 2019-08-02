@@ -1,0 +1,25 @@
+{
+  "name": "uptask",
+  "version": "1.0.0",
+  "description": "up tasker is an app with aunthentication ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byariel95/upTask.git"
+  },
+  "author": "Ariel Monterroso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byariel95/upTask/issues"
+  },
+  "homepage": "https://github.com/byariel95/upTask#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
