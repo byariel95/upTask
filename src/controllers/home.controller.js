@@ -1,6 +1,6 @@
 
    exports.index  =(req,res) => {
-       res.send('home');    
+       res.render('home');    
     };
 
     exports.nosotros =(req,res) =>{
