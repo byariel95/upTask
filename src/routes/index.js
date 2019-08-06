@@ -1,13 +1,11 @@
 const {Router} = require('express');
 router = Router();
 
-router.get('/',(req,res)=>{
-    res.send('home');
-});
+const homeController  = require('../controllers/home.controller');
 
-router.get('/nosotros',(req,res)=>{
-    res.send('nostros');
-});
+router.get('/',homeController.index);
+
+router.get('/nosotros',homeController.nosotros);
 
 
 module.exports = router;
