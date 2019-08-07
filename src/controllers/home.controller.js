@@ -4,6 +4,6 @@
     };
 
     exports.nosotros =(req,res) =>{
-       res.send('nostros');    
+       res.render('project');    
     };
 
