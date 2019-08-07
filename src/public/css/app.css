@@ -72,7 +72,7 @@ body {
    justify-content: flex-end;
 }
 .boton {
-    background-color: #FDD835;
+    background-color: #37B975;
     text-align: center;
     transition: background-color .5s ease-in-out;
     padding: 2rem;
@@ -93,7 +93,7 @@ body {
 
 .boton:hover {
     cursor: pointer;
-    background-color: rgb(219, 184, 29)!important;
+    background-color: rgb(44, 147, 94)!important;
 }
 .boton.eliminar {
     margin-top: 1rem;
@@ -111,7 +111,7 @@ body.index {
     height: 100vh;
 }
 .barra {
-    background-color: #455A64;
+    background-color: #4F96EB;
     padding: 1rem;
     height: 60px;
     display: flex;
@@ -131,7 +131,8 @@ body.index {
 .contenedor-proyectos {
     height: 100%;
     max-width: 300px;
-    background-color: #607D8B;
+    background: rgb(82,176,235);
+    background: linear-gradient(0deg, rgba(82,176,235,1) 32%, rgba(79,150,235,1) 77%);
     padding-top: 1rem;
 }
 .panel {
@@ -155,7 +156,7 @@ body.index {
     margin-left: 1rem;
 }
 .crear-proyecto a {
-    color: #455A64;
+    color: white;
 }
 
 .lista-proyectos ul{
@@ -167,7 +168,7 @@ body.index {
     margin-bottom: 1rem;
 }
 .lista-proyectos ul li a:hover {
-    color: #FDD835;
+    color: #2C935E;
 }
 /** Contenido Principal */
 .contenedor {
