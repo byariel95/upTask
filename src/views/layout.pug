@@ -6,16 +6,23 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         link(rel="stylesheet", href="/css/normalize.css")
         link(rel="stylesheet", href="/css/app.css")
-        title UpTasker
+        title #{namePag}
     body
         header.barra 
-            h1 UpTasker
+            h1 UpTasker - Administrador de Proyectos
             a(href="") cerrar sesion
         main.contenedor
             aside.contenedor-proyectos
                 .panel.crear-proyecto
                     a(href="" class="boton") Nuevo 
                         span +
-                .panel
-
-        block Nosotros
+                .panel.lista-proyectos
+                    h2 Proyectos
+                    ul#proyectos.proyectos
+                        li 
+                            a(href="") diseño tienda virtual
+                        li 
+                            a(href="") diseño nuevo blog
+                        li 
+                            a(href="") diseño logo
+            block Content
